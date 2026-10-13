@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}ja{% endif %}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% assign base = page.name | remove: ".ja.md" | remove: ".en.md" | remove: ".md" %}
+{% if page.title %}{% assign pt = page.title %}{% elsif page.unit %}{% assign pt = page.unit %}{% endif %}
+<title>{% if pt %}{{ pt }}｜{% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ site.description }}">
+<style>
+:root { --fg:#222; --bg:#fdfcf8; --muted:#666; --link:#8a3b12; --rule:#ddd; }
+@media (prefers-color-scheme: dark) { :root { --fg:#e6e2da; --bg:#1c1b19; --muted:#9a958c; --link:#e8a57a; --rule:#3a3835; } }
+body { margin:0; background:var(--bg); color:var(--fg); font-family:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",serif; line-height:1.9; }
+.wrap { max-width:46rem; margin:0 auto; padding:1rem 16px 4rem; }
+header.site { border-bottom:1px solid var(--rule); padding-bottom:.5rem; margin-bottom:1.5rem; font-size:.9rem; }
+header.site a.home { font-weight:bold; text-decoration:none; color:var(--fg); }
+nav.unit { font-size:.9rem; color:var(--muted); margin:.3rem 0 0; }
+nav.unit a { margin-right:1em; }
+a { color:var(--link); }
+h1 { font-size:1.4rem; line-height:1.5; }
+h2 { font-size:1.15rem; border-left:4px solid var(--link); padding-left:.5rem; margin-top:2.2rem; }
+h3 { font-size:1rem; margin-top:1.6rem; }
+table { border-collapse:collapse; } td,th { border:1px solid var(--rule); padding:.2rem .5rem; }
+pre, code { font-size:.85rem; overflow-x:auto; }
+footer { border-top:1px solid var(--rule); margin-top:3rem; padding-top:.8rem; font-size:.8rem; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<a class="home" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+<nav class="unit">
+{% if page.chapter_title or page.unit %}<a href="{{ page.dir | relative_url }}">篇の目次</a>{% endif %}
+{% if page.unit and page.lang == nil %}<a href="{{ base | append: '.ja.html' }}">日本語訳</a><a href="{{ base | append: '.en.html' }}">English</a>{% endif %}
+{% if page.lang %}<a href="{{ base | append: '.html' }}">原文・注</a>{% if page.lang == "ja" %}<a href="{{ base | append: '.en.html' }}">English</a>{% else %}<a href="{{ base | append: '.ja.html' }}">日本語訳</a>{% endif %}{% endif %}
+<a href="https://github.com/medicalcloud/wazaikyokuho/blob/master/{{ page.path }}">GitHub</a>
+</nav>
+</header>
+<main>
+{{ content }}
+</main>
+<footer>
+古典の文はパブリックドメイン。句読点・注釈の説明・訳・解説などは <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY 4.0</a>（Hideaki Takata）。訳と解説は LLM（Claude）で作成したもので，誤りがありうる。医療上の判断の根拠にはしないこと。全データは <a href="https://github.com/medicalcloud/wazaikyokuho">GitHub</a>。
+</footer>
+</div>
+</body>
+</html>

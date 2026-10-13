@@ -1,0 +1,41 @@
+太平恵民和剤局方 原文・注・現代語訳
+Copyright (c) 2026 Hideaki Takata
+
+1. 古典の文（Classical texts）
+
+『太平惠民和劑局方』の本文，および付録の『增廣和劑局方藥性總論』，
+朱震亨『局方發揮』の古典の文は，パブリックドメインである。
+電子テキストの多くは中醫笈成（jicheng.tw，CC0）による。
+
+The classical texts (the Taiping huimin heji ju fang, and the appended
+Zengguang heji jufang yaoxing zonglun and Jufang fahui by Zhu Zhenheng) are
+in the public domain. Most of the electronic texts come from Zhongyi Jicheng
+(jicheng.tw, CC0).
+
+2. このプロジェクトで新しく書いたもの（New material）
+
+校異・校訂の説明，日本語訳・英訳，解説，YAML の情報など，
+このプロジェクトで（LLM〔Claude〕を使って）新しく作成したものは，
+クリエイティブ・コモンズ 表示 4.0 国際 ライセンス（CC BY 4.0）で提供する。
+
+Textual notes, Japanese and English translations, explanatory notes,
+metadata, and other material newly created for this project (with the help
+of an LLM, Claude) are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+  https://creativecommons.org/licenses/by/4.0/
+  https://creativecommons.org/licenses/by/4.0/legalcode （法的な条文 / legal code）
+
+利用するときは，出典として次を示すこと。
+When using this material, please give attribution as follows:
+
+  太平恵民和剤局方 原文・注・現代語訳（Hideaki Takata） https://github.com/medicalcloud/wazaikyokuho
+
+3. 免責（Disclaimer）
+
+訳と解説は LLM によって作成したものであり，誤りがありうる。
+医療上の判断の根拠にはしないこと。本資料は無保証で提供する。
+
+The translations and notes were produced with an LLM and may contain
+errors. They are not medical advice. This material is provided "as is",
+without warranty of any kind.

@@ -1,0 +1,21 @@
+title: 太平恵民和剤局方 原文・注・現代語訳
+description: 『太平惠民和劑局方』（中醫笈成本）の原文，校異・校訂，日本語訳・英訳と解説。付録に『增廣和劑局方藥性總論』『局方發揮』の原文
+lang: ja
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+relative_links:
+  enabled: true
+  collections: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - LICENSE
