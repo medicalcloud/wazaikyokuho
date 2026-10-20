@@ -54,11 +54,11 @@ NN_篇/
 ## 権利とライセンス
 
 - **古典の文**（『太平惠民和劑局方』の本文，付録の『增廣和劑局方藥性總論』『局方發揮』）：パブリックドメイン。電子テキストの多くは中醫笈成（CC0）による。
-- **このプロジェクトで新しく書いたもの**（校異・校訂の説明，日本語訳・英訳，解説，YAML の情報など）：LLM（Claude）を使って作成したもの。[クリエイティブ・コモンズ 表示 4.0 国際（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/deed.ja)で提供する。利用するときは出典として「太平恵民和剤局方 原文・注・現代語訳（Hideaki Takata）」とこのリポジトリを示すこと。詳しくは `LICENSE`。
+- **このプロジェクトで新しく書いたもの**（校異・校訂の説明，日本語訳・英訳，解説，YAML の情報など）：LLM（Claude）を使って作成したもの。[クリエイティブ・コモンズ 表示-継承 4.0 国際（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)で提供する。利用するときは出典として「太平恵民和剤局方 原文・注・現代語訳（Hideaki Takata）」とこのリポジトリを示すこと。改変したものを配布するときは，同じ CC BY-SA 4.0（またはその互換ライセンス）で提供すること。詳しくは `LICENSE`。
 - 訳と解説は LLM によるもので，誤りがありうる。臨床に用いる判断の根拠にはしないこと。
 
 ---
 
 ## English summary
 
-This repository presents the *Taiping huimin heji ju fang* (Formulary of the Pharmacy Service for Benefiting the People in the Taiping Era), the Song-dynasty official formulary, split into one file per formula or discussion with YAML metadata. Each file contains the punctuated original text and textual variants and emendations collated against the Siku quanshu edition and three other electronic editions. Japanese and English translations with explanatory notes are provided for the memorial to the throne, all formulas in juan 1–10, and the *Zhinan zonglun* (General Guide). The *Zengguang heji jufang yaoxing zonglun* and Zhu Zhenheng's *Jufang fahui* are included in the original only. The base text is the edition on Zhongyi Jicheng (jicheng.tw, CC0). Classical texts are in the public domain; new material is CC BY 4.0. Translations were produced with an LLM and may contain errors; not for clinical use.
+This repository presents the *Taiping huimin heji ju fang* (Formulary of the Pharmacy Service for Benefiting the People in the Taiping Era), the Song-dynasty official formulary, split into one file per formula or discussion with YAML metadata. Each file contains the punctuated original text and textual variants and emendations collated against the Siku quanshu edition and three other electronic editions. Japanese and English translations with explanatory notes are provided for the memorial to the throne, all formulas in juan 1–10, and the *Zhinan zonglun* (General Guide). The *Zengguang heji jufang yaoxing zonglun* and Zhu Zhenheng's *Jufang fahui* are included in the original only. The base text is the edition on Zhongyi Jicheng (jicheng.tw, CC0). Classical texts are in the public domain; new material is CC BY-SA 4.0. Translations were produced with an LLM and may contain errors; not for clinical use.

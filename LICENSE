@@ -16,20 +16,24 @@ in the public domain. Most of the electronic texts come from Zhongyi Jicheng
 
 校異・校訂の説明，日本語訳・英訳，解説，YAML の情報など，
 このプロジェクトで（LLM〔Claude〕を使って）新しく作成したものは，
-クリエイティブ・コモンズ 表示 4.0 国際 ライセンス（CC BY 4.0）で提供する。
+クリエイティブ・コモンズ 表示-継承 4.0 国際 ライセンス（CC BY-SA 4.0）で提供する。
 
 Textual notes, Japanese and English translations, explanatory notes,
 metadata, and other material newly created for this project (with the help
-of an LLM, Claude) are licensed under the Creative Commons Attribution 4.0
-International License (CC BY 4.0).
+of an LLM, Claude) are licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License (CC BY-SA 4.0).
 
-  https://creativecommons.org/licenses/by/4.0/
-  https://creativecommons.org/licenses/by/4.0/legalcode （法的な条文 / legal code）
+  https://creativecommons.org/licenses/by-sa/4.0/
+  https://creativecommons.org/licenses/by-sa/4.0/legalcode （法的な条文 / legal code）
 
 利用するときは，出典として次を示すこと。
 When using this material, please give attribution as follows:
 
   太平恵民和剤局方 原文・注・現代語訳（Hideaki Takata） https://github.com/medicalcloud/wazaikyokuho
+
+改変したものを配布するときは，同じ CC BY-SA 4.0（またはその互換ライセンス）で提供すること。
+If you remix, transform, or build upon the material, you must distribute
+your contributions under the same license (CC BY-SA 4.0) or a compatible one.
 
 3. 免責（Disclaimer）
 
