@@ -8,7 +8,7 @@ title: 目次
 
 - 作り方・資料・字体の方針：[README（GitHub）](https://github.com/medicalcloud/wazaikyokuho#readme)，[字体と変換の方針](字体と変換の方針.md)
 - 全データ（Markdown＋YAML）：[GitHub medicalcloud/wazaikyokuho](https://github.com/medicalcloud/wazaikyokuho)
-- 姉妹編：[傷寒論](https://medicalcloud.github.io/shokanron/)，[金匱要略](https://medicalcloud.github.io/kinkiyoryaku/)，[黄帝内経](https://medicalcloud.github.io/koteidaikei/)，[神農本草経](https://medicalcloud.github.io/shinnohonzokyo/)
+- 姉妹編：[傷寒論](https://medicalcloud.github.io/shokanron/)，[金匱要略](https://medicalcloud.github.io/kinkiyoryaku/)，[黄帝内経](https://medicalcloud.github.io/koteidaikei/)，[神農本草経](https://medicalcloud.github.io/shinnohonzokyo/)，[二十四史の医療の記事](https://medicalcloud.github.io/24shi/)
 
 ## 篇
 

@@ -2,7 +2,7 @@
 
 『太平惠民和劑局方』（宋の和剤局の処方集。進表，卷之一〜卷之十，指南總論 卷上・中・下）の原文を，方ごと・論ごとの小さな単位に分け，資料間の異同（校異）・校訂，現代語訳（日本語・英語）と解説と組み合わせたもの。付録に『增廣和劑局方藥性總論』と朱震亨『局方發揮』の原文を収める。人が読むためだけでなく，LLM が読みやすいことを目指して，1単位を1ファイルにし，ファイルの頭に機械で読める情報（YAML）を付けている。
 
-**現在の状況**：原文（全1431単位）・校異・校訂と，進表・全方・指南總論の日本語訳・英訳ができている（2026-10-13）。姉妹編に[傷寒論](https://github.com/medicalcloud/shokanron)・[金匱要略](https://github.com/medicalcloud/kinkiyoryaku)・[黄帝内経](https://github.com/medicalcloud/koteidaikei)・[神農本草経](https://github.com/medicalcloud/shinnohonzokyo)がある。
+**現在の状況**：原文（全1431単位）・校異・校訂と，進表・全方・指南總論の日本語訳・英訳ができている（2026-10-13）。姉妹編に[傷寒論](https://github.com/medicalcloud/shokanron)・[金匱要略](https://github.com/medicalcloud/kinkiyoryaku)・[黄帝内経](https://github.com/medicalcloud/koteidaikei)・[神農本草経](https://github.com/medicalcloud/shinnohonzokyo)・[二十四史の医療の記事](https://github.com/medicalcloud/24shi)がある。
 
 ## 構成
 
