@@ -8,7 +8,7 @@ title: 目次
 
 - 作り方・資料・字体の方針：[README（GitHub）](https://github.com/medicalcloud/wazaikyokuho#readme)，[字体と変換の方針](字体と変換の方針.md)
 - 全データ（Markdown＋YAML）：[GitHub medicalcloud/wazaikyokuho](https://github.com/medicalcloud/wazaikyokuho)
-- 姉妹編：[傷寒論](https://medicalcloud.github.io/shokanron/)，[金匱要略](https://medicalcloud.github.io/kinkiyoryaku/)，[黄帝内経](https://medicalcloud.github.io/koteidaikei/)，[神農本草経](https://medicalcloud.github.io/shinnohonzokyo/)，[難経](https://medicalcloud.github.io/nangyo/)，[薬徴](https://medicalcloud.github.io/yakucho/)，[山海経](https://medicalcloud.github.io/sengaikyo/)，[脾胃論](https://medicalcloud.github.io/hiiron/)，[内外傷弁惑論](https://medicalcloud.github.io/naigaishobenwakuron/)，[二十四史の医療の記事](https://medicalcloud.github.io/24shi/)
+- 姉妹編：[傷寒論](https://medicalcloud.github.io/shokanron/)，[金匱要略](https://medicalcloud.github.io/kinkiyoryaku/)，[黄帝内経](https://medicalcloud.github.io/koteidaikei/)，[神農本草経](https://medicalcloud.github.io/shinnohonzokyo/)，[難経](https://medicalcloud.github.io/nangyo/)，[薬徴](https://medicalcloud.github.io/yakucho/)，[山海経](https://medicalcloud.github.io/sengaikyo/)，[脾胃論](https://medicalcloud.github.io/hiiron/)，[内外傷弁惑論](https://medicalcloud.github.io/naigaishobenwakuron/)，[本草綱目](https://medicalcloud.github.io/honzokomoku/)，[二十四史の医療の記事](https://medicalcloud.github.io/24shi/)
 
 ## 篇
 
